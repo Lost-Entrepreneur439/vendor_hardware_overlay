@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="config_udfps_sensor_props" translatable="false">
+        <item>540</item>  <!-- <item>sensorLocationX</item> -->
+        <item>2167</item> <!-- <item>sensorLocationY</item> -->
+        <item>9</item>   <!-- <item>sensorRadius</item> -->
+    </integer-array>
+
+    <bool name="config_dozeAfterScreenOff">true</bool>
+    <bool name="config_is_powerbutton_fps">true</bool>
+    <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
+    <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
+    <bool name="config_setColorTransformAccelerated">true</bool>
+
+    <dimen name="status_bar_height_default">28.0dip</dimen>
+    <dimen name="status_bar_height_landscape">28.0dip</dimen>
+    <dimen name="status_bar_height_portrait">35.0dip</dimen>
+
+    <integer name="config_autoBrightnessBrighteningLightDebounce">500</integer>
+    <integer name="config_autoBrightnessDarkeningLightDebounce">500</integer>
+    <integer name="config_cameraLaunchGestureSensorType">65540</integer>
+    <integer name="config_defaultPeakRefreshRate">120</integer>
+    <integer name="config_defaultRefreshRate">0</integer>
+    <integer name="config_screenBrightnessSettingDefault">98</integer>
+</resources>
